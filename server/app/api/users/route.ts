@@ -22,7 +22,6 @@ export function GET(_: any, response : any){
 
 export function DELETE(request : any, response : any){
   try {
-    console.log(users)
     const noUsers : User[] = [];
     fs.writeFileSync(dataPath, JSON.stringify(noUsers), 'utf8');
     return NextResponse.json(noUsers)
@@ -48,7 +47,6 @@ let usersArray: User[] = users
       return NextResponse.json({message: "email field is required"},{status: 400})
     }
     const activeState = isActive == undefined? true : !isActive? false : true;
-    console.log("actvie state : ", activeState)
     if(users.length == 0){
       const newUser  = {username, email, age, isActive: activeState,id : 1 }
       usersArray.push(newUser) 

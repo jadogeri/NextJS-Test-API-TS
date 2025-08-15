@@ -72,7 +72,6 @@ export async function PATCH(request: any, response: any){
         }
     }
 
-    console.log("data to update", data)
     if(foundUser.length > 0){
         const updatedUser : User = {...foundUser[0], ...data}
         const newUsersList: User[] = usersArray.map((user)=>{
