@@ -32,3 +32,30 @@ export async function DELETE(_: any, response: any){
 
     }
 }
+
+export async function PUT(request: any, response: any){
+    const { id } = await response.params;
+    const foundUser: User[] = usersArray.filter(user => user.id == id);
+    const {username, age, email, isActive } = await request.json();
+    const data : User = {
+        username: !username? "" : username,
+        age: !age? 0 : age,
+        isActive :isActive == undefined? true : !isActive? false : true,
+        email: !email? "" : email
+    }
+    if(foundUser.length > 0){
+        const updatedUser: User = {...foundUser[0], ...data}
+        const newUsersList = usersArray.map((user)=>{
+            if(user.id == updatedUser.id){
+                return updatedUser;
+            }else{
+                return user;
+            }              
+        })
+        fs.writeFileSync(dataPath, JSON.stringify(newUsersList, null, 2), 'utf8');
+        return NextResponse.json(updatedUser, {status: 200})
+
+    }else{
+       return NextResponse.json({ message : `User not found for replace with ID: ${id}`}, {status: 404})
+    }
+}
