@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "johndoe",
+    "email": "john.doe@example.com",
+    "age": 30,
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "username": "janesmith",
+    "email": "jane.smith@example.com",
+    "age": 25,
+    "isActive": false
+  },
+  {
+    "id": 3,
+    "username": "peterjones",
+    "email": "peter.jones@example.com",
+    "age": 45,
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "username": "sarahwilliams",
+    "email": "sarah.williams@example.com",
+    "age": 28,
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "username": "michaelbrown",
+    "email": "michael.brown@example.com",
+    "age": 38,
+    "isActive": false
+  },
+  {
+    "id": 6,
+    "username": "emilydavis",
+    "email": "emily.davis@example.com",
+    "age": 22,
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "username": "davidmiller",
+    "email": "david.miller@example.com",
+    "age": 50,
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "username": "lindajohnson",
+    "email": "linda.johnson@example.com",
+    "age": 33,
+    "isActive": false
+  },
+  {
+    "id": 9,
+    "username": "robertwhite",
+    "email": "robert.white@example.com",
+    "age": 41,
+    "isActive": true
+  },
+  {
+    "id": 10,
+    "username": "marytaylor",
+    "email": "mary.taylor@example.com",
+    "age": 29,
+    "isActive": true
+  }
+]
