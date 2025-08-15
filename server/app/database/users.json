@@ -68,12 +68,5 @@
     "email": "mary.taylor@example.com",
     "age": 29,
     "isActive": true
-  },
-  {
-    "username": "captain america",
-    "email": "captainamerica@avengers.com",
-    "age": 20000000,
-    "isActive": true,
-    "id": 11
   }
 ]

@@ -19,3 +19,16 @@ export async function GET(request: any, response: any){
     }
     return NextResponse.json({ message : 'User not found with ID : ' + id}, {status: 404})
 }
+
+export async function DELETE(_: any, response: any){
+    const { id } = await response.params;
+    const initialLength : number = usersArray.length;
+    const newUsersList : User[] = usersArray.filter(user => user.id != id);
+    if(newUsersList.length < initialLength){
+        fs.writeFileSync(dataPath, JSON.stringify(newUsersList, null, 2), 'utf8');
+        return NextResponse.json({message: 'User deleted with ID:' + id})
+    }else{
+        return NextResponse.json({ message : `User not found for deletion with ID: ${id}`}, {status: 404})
+
+    }
+}
