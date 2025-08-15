@@ -1,13 +1,13 @@
-# **NEXTJS TEST API JS**
+# **NEXTJS TEST API TS**
 
 **Version:** 1.0.1
-**Date:** August 14, 2025
+**Date:** August 15, 2025
 
 ---
 
 ## Description
 
-This is a nextjs application (javascript) for testing CRUD in frontend or backend applications.
+This is a nextjs application (typescript) for testing CRUD in frontend or backend applications.
 
 ## Authors
 
@@ -15,7 +15,7 @@ This is a nextjs application (javascript) for testing CRUD in frontend or backen
 
 ## Repository
 
- [https://github.com/jadogeri/NextJS-Test-API-JS.git](https://github.com/jadogeri/NextJS-Test-API-JS.git)
+ [https://github.com/jadogeri/NextJS-Test-API-TS.git](https://github.com/jadogeri/NextJS-Test-API-TS.git)
 
 
 ## Screenshots
@@ -58,13 +58,13 @@ This package will allow users to:
 ### 1.3 Intended Audience
 
 - Junior or Senior developers.
-- Beginners learning javascript.
+- Beginners learning typescript.
 
 ---
 
 ## 2. Technology Stack
 
-- **Programming Languages**: Javascript
+- **Programming Languages**: Typescript
 - **IDE**: Visual Studio Code (VSCode)
 - **Plugins**: Early AI
 - **Source Control**: Git and GitHub
@@ -75,16 +75,16 @@ This package will allow users to:
 
 ## 3. Usage
 
-1 Open up a terminal, type git clone https://github.com/jadogeri/NextJS-Test-API-JS.git to download project.
+1 Open up a terminal, type git clone https://github.com/jadogeri/NextJS-Test-API-TS.git to download project.
 
 ```bash
-  git clone https://github.com/jadogeri/NextJS-Test-API-JS.git
+  git clone https://github.com/jadogeri/NextJS-Test-API-TS.git
 ```
 
-2 Type cd NextJS-Test-API-JS/server to enter project root directory.
+2 Type cd NextJS-Test-API-TS/server to enter project root directory.
 
 ```bash
-  cd NextJS-Test-API-JS/server
+  cd NextJS-Test-API-TS/server
 ```
 3 Type npm install command for installing project dependencies.
 
@@ -101,7 +101,7 @@ This package will allow users to:
 
 Utilize the documentation below for testing frontend or backend application.
 
-## [API Documentation](https://documenter.getpostman.com/view/40822092/2sB3BHjTYz)
+## [API Documentation](https://documenter.getpostman.com/view/40822092/2sB3BHkTqw)
 
 ## 5. License
 
