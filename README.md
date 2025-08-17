@@ -102,7 +102,7 @@ This package will allow users to:
 
 Utilize the documentation below for testing frontend or backend application.
 
-## [link to documentation](https://documenter.getpostman.com/view/40822092/2sB3BHmUfo)
+ [link to documentation](https://documenter.getpostman.com/view/40822092/2sB3BHmUfo)
 
 ## 5. License
 
