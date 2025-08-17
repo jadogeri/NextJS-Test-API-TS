@@ -17,7 +17,6 @@ This is a nextjs application (typescript) for testing CRUD in frontend or backen
 
  [https://github.com/jadogeri/NextJS-Test-API-TS.git](https://github.com/jadogeri/NextJS-Test-API-TS.git)
 
-
 ## Screenshots
 
 | ![Screenshot 1](assets/images/screenshot1.png) | ![screenshot 2](assets/images/screenshot2.png) |
@@ -86,11 +85,13 @@ This package will allow users to:
 ```bash
   cd NextJS-Test-API-TS/server
 ```
+
 3 Type npm install command for installing project dependencies.
 
 ```bash
   npm install
 ```
+
 4 Type npm run dev to run application in development mode.
 
 ```bash
@@ -101,7 +102,7 @@ This package will allow users to:
 
 Utilize the documentation below for testing frontend or backend application.
 
-## [API Documentation](https://documenter.getpostman.com/view/40822092/2sB3BHkTqw)
+## [link to documentation](https://documenter.getpostman.com/view/40822092/2sB3BHmUfo)
 
 ## 5. License
 
@@ -114,4 +115,3 @@ Utilize the documentation below for testing frontend or backend application.
 * FreeCodeCamp : [Frontend Web Development: (HTML, CSS, JavaScript, TypeScript, React)](https://www.youtube.com/watch?v=MsnQ5uepIa).
 * AweSome Open Source : [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 * Readme.so : [The easiest way to create a README](https://readme.so/)
-
